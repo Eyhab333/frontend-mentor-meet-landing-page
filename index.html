@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./starter-code/assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Meet landing page</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+      body {
+        font-family: "Red Hat Display", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--$$$$$$$$$$$$$$$$$$$$$$$$$ logo $$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <header>
+      <div class="logo">
+        <img src="./starter-code/assets/logo.svg" alt="logo" />
+      </div>
+    </header>
+    <!--$$$$$$$$$$$$$$$$$$$$$$$$$ hero $$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <main>
+      <div class="hero-container-flex">
+        <div class="image-hero-left--container show-on-desktop">
+          <img
+            class="image-hero-left"
+            src="./starter-code/assets/desktop/image-hero-left.png"
+            alt="image-hero-left"
+          />
+        </div>
+        <div class="image-hero--container show-on-mobile-tablet">
+          <img
+            class="image-hero"
+            src="./starter-code/assets/tablet/image-hero.png"
+            alt="image-hero"
+          />
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-text__h1">Group Chat for Everyone</h1>
+          <p class="hero-text__p">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="hero-text__buttons">
+            <button class="hero-text__button-download">
+              Download <span class="hero-text__button-download--v1">v1.3</span>
+            </button>
+            <button class="hero-text__button-what">What is it?</button>
+          </div>
+        </div>
+        <div class="image-hero-right--container show-on-desktop">
+          <img
+            class="image-hero-right"
+            src="./starter-code/assets/desktop/image-hero-right.png"
+            alt="image-hero-right"
+          />
+        </div>
+      </div>
+      <!--$$$$$$$$$$$$$$$$$$$$ middle-section $$$$$$$$$$$$$$$$$$$$$$-->
+      <div class="middle-section--container">
+        <div class="zero-one">
+          <div class="zero__line"></div>
+          <p class="zero__p">01</p>
+        </div>
+        <div class="middle-section__images--block-container">
+          <div class="middle-section__images--flex-container">
+            <img
+              class="middle-section__images image-woman-in-videocall"
+              src="./starter-code/assets/desktop/image-woman-in-videocall.jpg"
+              alt="image-woman-in-videocall"
+            />
+            <img
+              class="middle-section__images image-women-videochatting"
+              src="./starter-code/assets/desktop/image-women-videochatting.jpg"
+              alt="image-women-videochatting"
+            />
+            <img
+              class="middle-section__images image-men-in-meeting"
+              src="./starter-code/assets/desktop/image-men-in-meeting.jpg"
+              alt="image-men-in-meeting"
+            />
+            <img
+              class="middle-section__images image-man-texting"
+              src="./starter-code/assets/desktop/image-man-texting.jpg"
+              alt="image-man-texting"
+            />
+          </div>
+        </div>
+        <div class="middle-section--text">
+          <p class="middle-section--text__p1">Built for modern use</p>
+          <h2 class="middle-section--text__h2">
+            Smarter meetings, all in one place
+          </h2>
+          <p class="middle-section--text__p2">
+            Send messages, share files, show your screen, and record your
+            meetings — all in one workspace. Control who can join with
+            invite-only team access, data encryption, and data export.
+          </p>
+        </div>
+        <div class="zero-two">
+          <div class="zero__line"></div>
+          <p class="zero__p">02</p>
+        </div>
+      </div>
+    </main>
+    <!--$$$$$$$$$$$$$$$$$$$$$$$ footer $$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <footer>
+      <div class="footer-flex-container">
+        <h2 class="footer-flex-container__h2">Experience more together</h2>
+        <p class="footer-flex-container__p">
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+        <button class="footer-flex-container__button">
+          Download <span class="footer__button-v1">v1.3</span>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
